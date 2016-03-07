@@ -21,6 +21,10 @@ var countDown = function(n) {
 $(document).ready(function() {
   $("form#count").submit(function(event) {
     var n = $("input#number").val();
+    var result = countDown(n);
+
+  $(".npp").html(result);
+
 
   $("#result").show();
     event.preventDefault();
