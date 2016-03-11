@@ -1,9 +1,9 @@
 var countDown = function(n) {
-  var text = "";
+  var text = " ";
   for (i = 1 ; i <= n ; i++)
   {
     if (i % 15 === 0) {
-      text += "pingpong <br>";
+      text += "pingpong!<br>";
      }  else if (i % 5 === 0) {
       text += "pong <br>";
      }  else if (i % 3 === 0) {
@@ -26,7 +26,7 @@ $(document).ready(function() {
   $(".npp").html(result);
 
 
-  $("#result").show();
+  $("#result").fadeIn(3000);
     event.preventDefault();
   });
 });
