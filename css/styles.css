@@ -6,10 +6,12 @@ h1 {
   color: white;
   text-transform: uppercase;
 }
+
+
 img {
     display: block;
     margin: 0 auto;
-    width: 400px;
+    width: 50%;
     height: auto;
     border-bottom: 20px;
   }
@@ -31,6 +33,7 @@ h2 {
   width:20%;
   margin:0 auto;
   position:relative;
+  background: yellow;
 }
 
 #number {
@@ -42,4 +45,9 @@ h2 {
   text-align: center;
   font-size: 30px;
   color: white;
+}
+
+a{
+  font-size: 20px;
+  color: red;
 }
